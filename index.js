@@ -13,4 +13,4 @@ newHeader.id = 'victory';
 document.body.append(newHeader);
 
 // Add content to the node
-newHeader.textContent = "YOUR-NAME is the champion";
+newHeader.innerHTML = "Evans is the champion";
