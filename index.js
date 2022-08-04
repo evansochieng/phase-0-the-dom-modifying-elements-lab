@@ -8,9 +8,8 @@ main.remove();
 const newHeader = document.createElement('h1');
 newHeader.id = 'victory';
 
-// Add id to the h1 node
-//const newHeader = document.getElementById('victory');
-document.body.append(newHeader);
+// Add the element as a child
+document.body.appendChild(newHeader);
 
 // Add content to the node
 newHeader.innerHTML = "Evans is the champion";
